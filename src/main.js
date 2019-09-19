@@ -10,6 +10,7 @@ import {
   Field, // 输入框
   Icon, // 图标
   Toast, // 失败信息提示
+  Loading // 加载
 } from 'vant'
 
 Vue.use(NavBar).use(Button).use(Field).use(Icon).use(Toast).use(Loading)
