@@ -2,11 +2,16 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import './style/index.less'
 // 按需引入 Vant 组件
 import {
-  Button
+  Button, // 按钮
+  NavBar, // 导航
+  Field, // 输入框
+  Icon // 图标
 } from 'vant'
-Vue.use(Button)
+
+Vue.use(NavBar).use(Button).use(Field).use(Icon)
 
 Vue.config.productionTip = false
 

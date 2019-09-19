@@ -6,7 +6,7 @@
 
 <script>
 // 引入axios请求
-import request from '@/utils/request'
+import request from './utils/request'
 
 // 发送请求
 request({
