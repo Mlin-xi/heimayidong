@@ -8,10 +8,11 @@ import {
   Button, // 按钮
   NavBar, // 导航
   Field, // 输入框
-  Icon // 图标
+  Icon, // 图标
+  Toast, // 失败信息提示
 } from 'vant'
 
-Vue.use(NavBar).use(Button).use(Field).use(Icon)
+Vue.use(NavBar).use(Button).use(Field).use(Icon).use(Toast).use(Loading)
 
 Vue.config.productionTip = false
 
