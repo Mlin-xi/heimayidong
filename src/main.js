@@ -2,10 +2,11 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-// import {
-//   Button
-// } from 'vant'
-// Vue.use(Button)
+// 按需引入 Vant 组件
+import {
+  Button
+} from 'vant'
+Vue.use(Button)
 
 Vue.config.productionTip = false
 
